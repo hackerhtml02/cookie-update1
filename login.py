@@ -1,8 +1,8 @@
 from playwright.sync_api import sync_playwright
 import json, os, time
 
-EMAIL = "contact@zenjer.online"
-PASSWORD = "Naseer786@"
+EMAIL = "hafsa4345@zenjer.online"
+PASSWORD = "HafsaHaris11$$"
 
 def login_and_save_cookies():
     with sync_playwright() as p:
