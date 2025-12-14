@@ -1,8 +1,8 @@
 from playwright.sync_api import sync_playwright
 import json, os, time
 
-EMAIL = "ah.viralacc@gmail.com"
-PASSWORD = "#arooj777"
+EMAIL = "haris@scienceandculture.site"
+PASSWORD = "scienceandculture.site"
 
 def login_and_save_cookies():
     with sync_playwright() as p:
@@ -15,7 +15,7 @@ def login_and_save_cookies():
             print("✅ Already logged in")
         else:
             # Click Sign in
-            for sel in ["text=Sign in with Google", "text=Sign in"]:
+            for sel in ["text=Create with Flow", "text=Create with"]:
                 try:
                     page.locator(sel).click(timeout=3000)
                     break
